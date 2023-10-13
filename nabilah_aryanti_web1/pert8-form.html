@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM REGISTRATION</title>
+    <style>
+      .container {
+        padding: 20px 25px;
+        width: 350px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 style="color: blueviolet">Free Registraion</h1>
+      <form action="" method="">
+        <table>
+          <tr>
+            <td><label for="nama">Nama</label></td>
+            <td>: <input type="text" id="nama" /></td>
+          </tr>
+          <tr>
+            <td><label for="tgl_lahir">Tgl Lahir</label></td>
+            <td>: <input type="date" id="tgl_lahir" /></td>
+          </tr>
+          <tr>
+            <td><label for="alamat">Alamat</label> :</td>
+            <td><textarea name="" id="alamat" cols="20" rows="5"></textarea></td>
+          </tr>
+          <tr>
+            <td><label for="kota">Kota</label></td>
+            <td>: <input type="text" id="kota" /></td>
+          </tr>
+          <tr>
+            <td><label for="pekerjaan">Pekerjaan</label></td>
+            <td>
+              :
+              <select name="" id="">
+                <option value="Tani">Tani</option>
+                <option value="buruh">Buruh</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label>Jenis Kelamin</label></td>
+            <td>
+              :
+              <input type="radio" name="gender" id="laki" />
+              <label for="laki">Laki-Laki</label>
+              <input type="radio" name="gender" id="perempuan" />
+              <label for="perempuan">Perempuan</label>
+            </td>
+          </tr>
+          <tr>
+            <td><label>Hobi </label>:</td>
+            <td>
+              <input type="checkbox" name="hobi" id="reading" />
+              <label for="reading">Reading</label> <br />
+              <input type="checkbox" name="hobi" id="singing" />
+              <label for="singing">Singing</label> <br />
+              <input type="checkbox" name="hobi" id="sport" />
+              <label for="sport">Sport</label> <br />
+              <input type="checkbox" name="hobi" id="traveling" />
+              <label for="traveling">Traveling</label> <br />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button type="submit" name="submit">KIRIM</button>
+              <button>CANCEL</button>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>
